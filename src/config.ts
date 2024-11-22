@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
+  website: "https://nenbajonathan.com/", // replace this with your deployed domain
+  author: "Nenba Jonathan",
   profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  desc: "I'm a full-stack developer focused on building fast, reliable applications. I’m passionate about open-source, blockchain, and decentralized finance, working primarily with Python, JavaScript, Rust, and Go.",
+  title: "Nenba Jonathan",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -28,7 +28,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/nejos97",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -36,31 +36,31 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://linkedin.com/in/jnenba",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:nenbajonathan@protonmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/nejos97",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -70,7 +70,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.youtube.com/@nejos97",
     linkTitle: `${SITE.title} on YouTube`,
     active: false,
   },
@@ -94,9 +94,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.tiktok.com/@nejos97",
     linkTitle: `${SITE.title} on TikTok`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
@@ -112,9 +112,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "GitLab",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://gitlab.com/nejos97",
     linkTitle: `${SITE.title} on GitLab`,
-    active: false,
+    active: true,
   },
   {
     name: "Reddit",
