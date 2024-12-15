@@ -96,7 +96,7 @@ export const SOCIALS: SocialObjects = [
     name: "TikTok",
     href: "https://www.tiktok.com/@nejos97",
     linkTitle: `${SITE.title} on TikTok`,
-    active: true,
+    active: false,
   },
   {
     name: "CodePen",
@@ -114,7 +114,7 @@ export const SOCIALS: SocialObjects = [
     name: "GitLab",
     href: "https://gitlab.com/nejos97",
     linkTitle: `${SITE.title} on GitLab`,
-    active: true,
+    active: false,
   },
   {
     name: "Reddit",
