@@ -5,7 +5,7 @@ title: "Uses"
 
 ## 👨‍💻 Programming
 
-- TypeScript/JavaScript
+- JavaScript/TypeScript
 - Rust
 - Python
 - Go
