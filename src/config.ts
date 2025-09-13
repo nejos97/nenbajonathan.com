@@ -1,15 +1,14 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://nejos97.github.io/nenbajonathan.com",
+  website: "https://nenbajonathan.com",
   author: "Nenba Jonathan",
-  profile: "https://satnaing.dev/",
-  desc: "I'm a full-stack developer focused on building fast, reliable applications. I’m passionate about open-source, blockchain, and decentralized finance, working primarily with Python, JavaScript, Rust, and Go.",
+  profile: "https://nenbajonathan.com",
+  desc: "I'm a full-stack developer focused on building fast, reliable applications. I’m passionate about open-source, blockchain, and decentralized finance, working primarily with JavaScript, Python, Rust, and Go.",
   title: "Nenba Jonathan",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
-  postPerPage: 3,
+  postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
