@@ -12,13 +12,8 @@ tags:
   - mozacoinafrica
   - payment
   - finance
-description:
-  Mozacoin est en ligne, découvrez quelques informations sur le projet et ce qu'on veut mettre en place.
+description: Mozacoin est en ligne, découvrez quelques informations sur le projet et ce qu'on veut mettre en place.
 ---
-
-![enter image description here](https://mozacoin.com/static/og-default-74dcba71d2d7ca1826d8c00c3688e976.png)
-
-
 
 La semaine dernière exactement le 07 août 2020 à 17:30 nous avons annoncé officiellement la mise en ligne du projet Mozacoin. Ca s’est passe en Direct sur les plateformes de sociaux Twitter, Facebook et YouTube. On a voulu que ca soit un événement grandiose et ca été le cas. Beaucoup de personne ont suivi le LIVE un peu partout dans le monde.  
   

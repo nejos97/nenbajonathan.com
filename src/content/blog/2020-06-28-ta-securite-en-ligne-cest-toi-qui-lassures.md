@@ -12,11 +12,10 @@ tags:
   - hacking
   - informations
   - password
-description:
-  Internet, c'est la jungle, quelques conseils et astuces pour assurer votre sécurité.
+description: Internet, c'est la jungle, quelques conseils et astuces pour assurer votre sécurité.
 ---
 
-![enter image description here](https://assets.vg247.com/current//2017/01/Hacker.jpg)
+![hacker](https://assets.vg247.com/current//2017/01/Hacker.jpg)
 
 La sécurité sur Internet aujourd'hui fait partie de notre vie quotidienne. À chaque fois qu'on est en ligne, le risque de se faire pirater ou de perdre ses informations ne fait qu'augmenter. De fois, l'on pense que c'est le travail des logiciels antivirus qu'on a installe qui doit nous protéger, mais en réalité ses logiciels ne font que nous prévenir et nous alerter lorsqu'il soupçonne quelque chose de bizarre.
 

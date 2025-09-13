@@ -12,8 +12,7 @@ tags:
   - yarn
   - pip
   - go modules
-description:
-  Know what a package manager is and which are the most used and how they work.
+description: Know what a package manager is and which are the most used and how they work.
 ---
 
 As a developer, you will realize that most of the time we will write code and try to solve problems by writing code, from day to day a repetition will be created not only in the project you are working on but also when you will switch between different projects, sometimes it will be small implementations and sometimes big changes that will push you to copy and paste big blocks of code.

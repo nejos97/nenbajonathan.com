@@ -12,13 +12,10 @@ tags:
   - blockchain
   - payment
   - cryptoeconomy
-description:
-  DeFi se résume à un système financier meilleur et plus rapide basé sur la technologie blockchain. Un système qui ne discrimine pas en fonction de la localisation géographique et de l'accessibilité, un système où l'individu est responsable.
+description: DeFi se résume à un système financier meilleur et plus rapide basé sur la technologie blockchain. Un système qui ne discrimine pas en fonction de la localisation géographique et de l'accessibilité, un système où l'individu est responsable.
 ---
 
 ### C'est quoi la Defi ?
-
-![enter image description here](https://intodefi.com/defi/MCD-Collateral.png)
 
 La finance décentralisée (ou simplement DeFi) fait référence à un écosystème d'applications financières qui sont construites sur des réseaux blockchain.
 

@@ -11,8 +11,7 @@ tags:
   - env
   - javascript
   - programming
-description:
-  Learn how to manage .env with node 20.6.0 without using an external package.
+description: Learn how to manage .env with node 20.6.0 without using an external package.
 ---
 
 Hello javascript lovers, for some time now the new version of node, more precisely version 20.6.0, has been supporting your environment variable file without the need for an external package to do this. Well, in this little post we're going to talk a bit about what this means and how to take full advantage of this improvement, as well as some of the drawbacks or weak points of this feature.

@@ -11,8 +11,7 @@ tags:
   - sql
   - postgres
   - webdev
-description:
-  In this post, you'll learn how to generate a mass of data using WITH RECURSIVE clause.
+description: In this post, you'll learn how to generate a mass of data using WITH RECURSIVE clause.
 ---
 
 More than once in programming, you've had to work with data, but somehow didn't have it, perhaps to test the performance of your queries, the general behavior of your application or to prepare a demo.

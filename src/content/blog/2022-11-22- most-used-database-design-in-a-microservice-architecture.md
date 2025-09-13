@@ -11,8 +11,7 @@ tags:
   - microservices
   - databases
   - patterns
-description:
-  Which database design should you choose for your application on microservices architecture?
+description: Which database design should you choose for your application on microservices architecture?
 ---
 
 When you heard the word Microservices, what things come to your mind at that time? for me: Database and services communication.
@@ -22,8 +21,6 @@ We know that in recent years microservices architecture grow rapidly in the tech
 To solve this issue, a better approach for this kind of system would be to provide each component(or microservices)with its data store to limit or remove coupling between services in a database layer.
 
 Choosing the right database model in microservices designing is one of the most important aspects of microservices because it can rapidly envolve, which could be per services or shared.
-
-![image tooltip here](/assets/images/posts/database_microservices.png)
 
 #### **Complete data to a service ownership**
 
@@ -46,5 +43,4 @@ Here are some topics to deepen your knowledge of the subject
 * Command Query Responsibility Segregation
 
 * [[1] Mehmet Ozkaya's blog "Microservices Database Management Patterns and Principles" , https://medium.com/design-microservices-architecture-with-patterns/microservices-database-management-patterns-and-principles-9121e25619f1](https://medium.com/design-microservices-architecture-with-patterns/microservices-database-management-patterns-and-principles-9121e25619f1)
-
 * [[2] OpenReplay Blog "7 Microservice Design Patterns to Use" , https://blog.openreplay.com/7-microservice-design-patterns-to-use/](https://blog.openreplay.com/7-microservice-design-patterns-to-use/)

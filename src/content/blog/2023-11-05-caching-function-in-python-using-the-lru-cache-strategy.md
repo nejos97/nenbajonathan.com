@@ -11,8 +11,7 @@ tags:
   - caching
   - lru
   - function
-description:
-  Improve considerably the performance of your python applications with the lru_cache decorator
+description: Improve considerably the performance of your python applications with the lru_cache decorator
 ---
 
 ### Introduction

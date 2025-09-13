@@ -11,18 +11,14 @@ tags:
   - datainformation
   - ia
   - innovation
-description:
-  La vérité choquante que nous devons accepter en ce qui concerne les réseaux sociaux.
+description: La vérité choquante que nous devons accepter en ce qui concerne les réseaux sociaux.
 ---
-
-![enter image description here](https://loopnewslive.blob.core.windows.net/liveimage/sites/default/files/2018-05/n9LRnvf912.jpg)
 
 Les réseaux sociaux sont devenus aujourd'hui partis intégrant de notre quotidien, dès le réveil, jusque tard dans la nuit, nous avons nos smartphones en main. De Facebook à Instagram en passant par whatsapp et Tiktok, nos journées le plus souvent se résume par notre façon de switcher d'une fenêtre d'application a l'autre. Les notifications alors, là n'en parlons pas, c'est devenue un son qui fait partie de notre ADN. 
 
 Dans le passé, la communication se faisait essentiellement par lettre, ce qui prenait plusieurs jours pour que l'expéditeur reçoive une réponse a ça lettre envoyé il y a des mois. Aujourd'hui avec l’essor de la révolution technologique, des inventions impossible dans le passé ont vu le jour. Ses inventions nous ont vraiment facilité la vie, mais ont également apporter leur part de problème qui nous regarde tous aujourd'hui et constitue un sérieux problème. Devenue pour la plupart des milliardaires, je me suis longtemps questionné sur la source de revenue de ses inventions. Je vais expliquer brièvement comment les réseaux sociaux fonctionnent et comment ils gagnent leur argent.
 
 ### Les moyens de revenus
-![enter image description here](https://media.istockphoto.com/photos/man-with-money-and-happy-expression-picture-id171150192?k=6&m=171150192&s=612x612&w=0&h=CAnE1um6wdQevoquL1IeUNfWObBok_G8UmJ_J_JvWgs=)
 
 Tous les sites de rencontre ou les réseaux installés sur nos téléphones sont en bourse, ce qui signifie qu'ils se font de l'argent. Pourtant, la majorité d'entre elle est gratuite, dont pas de frais d'utilisation. Comment font-ils alors pour gagner aussi tant d'argent ? La réponse : notre temps. Si c'est gratuit, c'est que vous êtes le produit ! Garder toujours cela en tête. Notre temps passe sur les réseaux sociaux permettent aux plateformes de nous montrer des publicités. Une étude menée en 2015 a démontré que chaque utilisateur est susceptible de rapporter 11 Euros à la firme américaine Facebook. On parle ici encore de publicité, même si celle-ci est discrète elle y est malgré tout bien présente. Il s’accapare donc environ 65 % des budgets publicitaires sur les réseaux sociaux. Le fait de pouvoir cibler ses publicités est un atout extrêmement important.
 Twitter n'est pas en marge de cette tendance, 2nd au classement par rapport à Facebook, l’entreprise commence réellement à gagner de l’argent en 2011 en proposant différents outils de publicité : les tweets, les comptes et les tendances commanditées. En 2014, chaque utilisateur a rapporté en moyenne à Twitter 5.48 dollars.  
@@ -35,7 +31,6 @@ En supposant une durée de vie humaine moyenne de 72 et en supposant que de nomb
 
 En d’autres termes, c’est près de **6 ans et 8 mois sur les médias sociaux au cours de leur vie selon les estimations pour l’utilisation des médias sociaux en 2019**.
 
-![enter image description here](https://visionarymarketing.com/wp-content/uploads/2019/06/time-spent-on-social-in-a-lifetime-e1561189241356.png.webp)
 Le plus important enseignement que l’on peut tirer d’un tel ensemble de statistiques sur les médias sociaux, c’est que le paysage social change constamment et rapidement. Aujourd’hui, les gens passent **un temps considérable** sur les médias sociaux.
 
 ### Recherche

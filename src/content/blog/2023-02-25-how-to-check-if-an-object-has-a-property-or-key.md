@@ -11,8 +11,7 @@ tags:
   - object
   - property
   - key
-description:
-  Découvrez les différentes méthodes pour vérifier si un objet possède une propriété ou une clé spécifique en JavaScript.
+description: Discover the different methods for checking whether an object has a specific property or key in JavaScript.
 ---
 
 Hello everyone, today in this post I'm going to share with you some tips to check if a property exists in your javascript object, this also apply for the keys.

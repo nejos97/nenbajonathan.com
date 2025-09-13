@@ -26,8 +26,6 @@ Les cryptomonnaies fonctionnent à l'aide d'une technologie appelée blockchain(
 
 ## La Blockchain
 
-![enter image description here](https://www.swisspeace.ch/apropos/wp-content/uploads/2018/07/Blockchain-Bild.jpg)
-
 Une blockchain est une technologie de stockage et de transmission d’information sans organe de contrôle(pas de contrôle centraliser). De manière technique, il s'agit d'une base de données distribué dont les informations sont vérifiées et groupées à intervalle de temps régulier en blocs, formant ainsi une chaîne les unes liées aux autres. On peut également dire que c'est une base de données distribuer(à travers le monde le plus souvent) qui gère une liste d'enregistrement(votre argent par exemple) protégé contre toute falsification et modifications. C'est dont un gros livre qui garde et traite toute les transactions effectuées depuis le démarrage d'un système(le lancement de la cryptomonnaie).
 
 Il faut savoir que beaucoup de monnaie virtuelle et de cryptomonnaie utilisent les chaînes de blocs pour leur sécurité. Satashi Nakamoto, l'inventeur du bitcoin, a été le premier a appliquer une chaîne de block décentralisée. Les transactions sur une chaîne de blocs sont très difficiles à annuler.  
@@ -63,7 +61,7 @@ Pour une liste plus détaillée des concepts [cliquer ici](https://www.coingecko
 
 ## Quels Cryptomonnaie choisir
 
-![enter image description here](https://whoisadampayne.com/wp-content/uploads/2016/01/quotivee_wallpaper_1920x1200_0006_you-make-your-own-choices-e1430331723959.jpg)
+![you make your own choices](https://whoisadampayne.com/wp-content/uploads/2016/01/quotivee_wallpaper_1920x1200_0006_you-make-your-own-choices-e1430331723959.jpg)
 
 S'il y a une chose qui va beaucoup vous étonner dans la cryptomonnaie ce qu'il en existe énormément et selon tous les goûts. En fait la chose que vous devrait toujours garder en tête, c'est le projet que soutient la cryptomonnaie, car chaque cryptomonnaie doit avoir un problème à résoudre et avoir définie également comment il compte résoudre le problème. Faite surtout attention il y a d'autre groupe de personne qui se cache derrière le mot crytomonnaie, blockchain pour arnaquer les gens. Je vous conseillerais donc de faire d'avantage de recherche concerne le projet de cryptomonnaie qui vous a le plus attiré.  
 Ici, je vais vous proposer juste quelque cryptomonnaie qui sont les plus répandues et ayant fais leur preuve.
@@ -81,7 +79,7 @@ Le litecoin a été mis en service en 2011. Il est aussi similaire au Bitcoin, m
 Stellar Lumen est une cryptomonnaie créer par le Réseau Stellar. Il fonctionne presque de la même manière que le bitcoin, et joue le rôle de passerelle avec les cryptomonnaie qui ne sont pas rependue directement sur un marche.
 
 ## Comment acheter Cryptomonnaies
-![enter image description here](https://images.yourstory.com/cs/wordpress/2017/11/Buy-Cryptocurrency.jpg)
+![bitcoin wallet](https://images.yourstory.com/cs/wordpress/2017/11/Buy-Cryptocurrency.jpg)
 
 Menant que vous savais ce que c'est la cryptomonnaie, c'est excitant, je sais menant nous allons voir comment vous pouvez vous en procurer facilement.
 

@@ -11,8 +11,7 @@ tags:
   - tasks
   - atomicgo
   - programming
-description:
-  Learn to schedule tasks execution in golang with atomicgo
+description: Learn to schedule tasks execution in golang with atomicgo
 ---
 
 Hi coder, in one way or another in programming, you have once been confronted with the fact of wanting to schedule the execution of certain tasks in your program, whether it's to delete certain unnecessary files, build your application, send birthday mails or even periodically check access and delete when it's out of date; in any case, there are an awful lot of them.

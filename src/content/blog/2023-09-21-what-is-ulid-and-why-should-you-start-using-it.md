@@ -11,8 +11,7 @@ tags:
   - ulid
   - uuid
   - optimisation
-description:
-  A brief overview of ULID and how to use it.
+description: A brief overview of ULID and how to use it.
 ---
 
 ### Identifiers(IDs) in programming

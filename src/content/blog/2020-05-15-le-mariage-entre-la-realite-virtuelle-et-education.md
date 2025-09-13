@@ -18,7 +18,7 @@ description:
 
 ### C'est quoi la Réalité Virtuelle(VR)
 
-![enter image description here](https://i.cbc.ca/1.3564802.1462305007!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/still-from-nomads-maasai-by-felix-paul-studios.jpg)
+![Les Maasaïs expérimentant la VR](https://i.cbc.ca/1.3564802.1462305007!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/still-from-nomads-maasai-by-felix-paul-studios.jpg)
 Les Maasaïs expérimentant la VR.
 
 
@@ -30,10 +30,6 @@ La finalité de la réalité virtuelle est de permettre à une personne (ou à p
 
 ### État de l'éducation
 
-![enter image description here](https://www.digitalbusiness.africa/wp-content/uploads/2015/05/securite-informatique-formation.jpg)
-Élèves en salle de classe travaillant sur leurs ordinateurs.
-
-
 > "Celui qui ouvre une porte d'école, ferme une prison." - Victor Hugo  
 
 En Afrique, plus principalement en Afrique francophone, l'éducation souffre de beaucoup de maux. L'on se demande parfois si les élèves ou étudiant ne voient pas en ça une forme de punition ? Quittant des problèmes alphabétisation, linguistique, écriture, pédagogique et organisation, coût... L'éducation se trouve donc clouée incapable de remplir son principal rôle. L'apprentissage naturel est ce que le cerveau sait faire de mieux. Depuis l'enfance, des processus sont exécutés afin de nous préparer pour un apprentissage ultérieur. Tous les bébés naissant avec un potentiel inné d'apprendre et de parler n'importe quelle langue et de nombreuses langues. La clé pour devenir plus intelligent est de développer les dendrites et les connexions synaptiques entre les neurones. L'architecture du cerveau de chaque individu a la capacité d’accroître de façon exponentielle son intelligence. L'esprit apprend de façon optimale quand il est mis à l'épreuve dans un environnement qui encourage la prise de risques. Les humains ont survécu en expérimentant des choses nouvelles, généralement en petits groupes, NON PAS en trouvant toujours la "bonne" réponse éprouvée, ce qui n'est pas propice au développement de l'intelligence et de l'adaptation de l'esprit ; c'est pourquoi les gens cherchent tous les jours à mettre en place des méthodes d'apprentissage améliorées apportant un changement fondamental.
@@ -41,11 +37,6 @@ En Afrique, plus principalement en Afrique francophone, l'éducation souffre de 
   
 
 ### Solution aux problèmes grâce a la Réalité Virtuelle(VR)
-
-![enter image description here](https://cahiersdudigitalafrique.com/wp-content/uploads/2018/08/OWNLABS3.jpg)
-
-Exposition d'Ownlabs.
-
 
 La technologie et plus précisément la Réalité virtuelle est un excellent outil d'apprentissage lorsqu'il est utilisé à escient, on parle également du TEL (Technology Enhanced Learning) ("Apprentissage amélioré par la technologie") pour créer de nouveaux environnements d'apprentissage pour l'apprentissage tant direct qu'à distance.
 
@@ -100,10 +91,6 @@ Plusieurs autres domaines existent encore ; on ne peut tout citer.
   
 
 ### Solutions et progrès effectué dans le domaine
-
-![enter image description here](https://www.wareable.com/media/imager/201711/26460-original.jpg)
-Merge Cube et son casque de VR.
-
 
 **OwnLabs** : Créer des vocations scientifiques en Afrique
 

@@ -12,8 +12,7 @@ tags:
   - fastapi
   - docker
   - uvicorn
-description:
-  Set up a python API with FastAPI, build a docker image and publish it on the docker registry.
+description: Set up a python API with FastAPI, build a docker image and publish it on the docker registry.
 ---
 
 Welcome to this new post where we will create a simple API and create a docker image that we can store in the official Docker registry.
@@ -188,5 +187,4 @@ docker image push nejos97/simple-users-api
 Through our program I hope that it would have allowed you to know some basics of python web services more precisely the API and also.
 
 -  [[1] FastAPI "FastAPI" , https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
-
 -  [[2] RedHat "What is an API?" , https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces)

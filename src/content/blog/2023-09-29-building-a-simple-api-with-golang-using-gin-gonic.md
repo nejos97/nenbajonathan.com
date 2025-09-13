@@ -11,8 +11,7 @@ tags:
   - gin
   - restapi
   - webdev
-description:
-  I am going to teach you how to create a simple API with Gin-gonic in Go
+description: I am going to teach you how to create a simple API with Gin-gonic in Go
 ---
 
 Hello everyone, in this post, I'm going to show you how to create a small Golang API using the Gin-gonic library to expose some resources of your application's.

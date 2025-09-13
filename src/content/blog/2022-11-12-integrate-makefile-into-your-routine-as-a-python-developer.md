@@ -12,8 +12,7 @@ tags:
   - pip
   - automation
   - venv
-description:
-  Automatisez vos tâches de développement Python en intégrant un Makefile dans votre workflow quotidien.
+description: Automate your Python development tasks by integrating a Makefile into your daily workflow.
 ---
 
 Although that Makefile is not used too much with the interpreted programming language, make is a wonderful tool and is often misunderstood by some developers.
@@ -194,8 +193,6 @@ run: /venv/bin/activate
 
 Now our `run` target depends on `/venv/bin/activate`  once the target is run successfully the app is launched.
 
-![image tooltip here](/assets/images/posts/terminal.png)
-
 We need to add some lines in our `clean` target to removing also the `venv`
 
 ```yml
@@ -211,5 +208,4 @@ Using `make` in your python projects opens the door to a lot of possibilities in
 If you want to go deep with `Makefile`you can check the official GNU manual on this [link](http://www.gnu.org/software/make/manual/make.html).
 
 - [[1] Earthly "Creating a Python Makefile" , https://earthly.dev/blog/python-makefile/](https://earthly.dev/blog/python-makefile/)
-
 - [[2] Iurii Krasnoshchok's Blog "Makefiles for Python and beyond" , https://medium.com/aigent/makefiles-for-python-and-beyond-5cf28349bf05](https://medium.com/aigent/makefiles-for-python-and-beyond-5cf28349bf05)

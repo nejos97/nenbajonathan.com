@@ -16,9 +16,6 @@ description: "L'adoption de la blockchain par les gouvernements : enjeux, opport
 ---
 
 ### C'est quoi la technologie Blockchain ?
-![enter image description here](https://cdnnewawt-59e2.kxcdn.com/wp-content/uploads/2020/03/blockchain-nedir-02.png)
-Illustration de la blockchain avec des blocs liées.
-
 
 Une Blockchain est un grand livre ou une base de données distribués. Elle permet essentiellement :
 
@@ -39,10 +36,6 @@ Le protocole Bitcoin est construit sur la blockchain. Dans un document de recher
 
 ### Blockchain dans l'optique de la sécurité
 
-![enter image description here](https://www.cybersecobservatory.com/wp-content/uploads/2017/06/cybersecurity1.jpg)
-Sécurité dans la blockchain.
-
-
 Les nations adverses, les acteurs non-étatiques violents et d'autres sont engagés dans des mesures actives et des guerres cybernétiques et hybrides, couvrant le spectre de l'espionnage économique, du financement du terrorisme, de la pénétration du réseau électrique, de l'influence politique et plus encore. La blockchain pourrait jouer un rôle dans la facilitation de toutes ces activités.
 La Chine envisage le rôle de la blockchain dans le paiement des « professionnels du renseignement et des informateurs », la gestion de la chaîne d'approvisionnement et les cycles de vie des armes. La Corée du Nord combine les attaques de logiciels malveillants avec la cryptomonnaie comme moyen de génération de revenus. La Russie et le Venezuela envisagent les cryptomonnaies comme moyen de contourner les sanctions.
 
@@ -51,9 +44,9 @@ De même, la Russie adopte la blockchain. Le système de transfert des communica
 L'ampleur des activités requises pour une mise en œuvre globale de la blockchain par le gouvernement américain serait clairement beaucoup plus grande - et les implications plus étendues - que ce n'est le cas en Estonie, aux Émirats arabes unis ou au Canada. Cependant, l'ampleur des investissements de la Chine et de la Russie éclipse ceux des États-Unis à ce point.
 
 ### Domain d'application de la blockchain pour le gouvernement
-![enter image description here](https://blockchain-training.co.uk/wp-content/uploads/2019/06/1_3yyJZkyCtkdD4IiilCwTTQ-768x384.jpeg)
-Quelque champ d'application de la technologie Blockchain.
 
+![Quelque champ d'application de la technologie Blockchain](https://blockchain-training.co.uk/wp-content/uploads/2019/06/1_3yyJZkyCtkdD4IiilCwTTQ-768x384.jpeg)
+Quelque champ d'application de la technologie Blockchain.
 
 La première utilisation de la Blockchain a été vraiment la cryptomonnaie, mais depuis l'avènement de cette technologie, on l'applique déjà dans presque tous les domaines qui nous entoure. Ce n'est pas qu'on cherche juste a force la migration vers la blockchain, c'est que la technologie est vraiment adaptée et répond correctement aux domaines. Ci-dessous je vais vous lister quelques domaines d'application de la Blockchain.
 

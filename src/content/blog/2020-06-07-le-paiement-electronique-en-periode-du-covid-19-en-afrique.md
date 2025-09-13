@@ -12,8 +12,7 @@ tags:
   - cryptocurrency
   - innovation solution
   - covid19
-description:
-  Acteurs du paiement électronique en Afrique et opportunités à l'ère du COVID-19.
+description: Acteurs du paiement électronique en Afrique et opportunités à l'ère du COVID-19.
 ---
 
 ### C'est quoi le paiement électronique ?

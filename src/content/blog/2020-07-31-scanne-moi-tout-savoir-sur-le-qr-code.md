@@ -12,12 +12,11 @@ tags:
   - covid19
   - payment
   - services
-description:
-  Comment le QR Code a bouleversé le quotidien des gens dans le monde.
+description: Comment le QR Code a bouleversé le quotidien des gens dans le monde.
 ---
 
 ### Présentation du QR Code & Histoire
-![enter image description here](https://miro.medium.com/max/700/1*EjnvrpBLlEDowGQnecd0xQ.png)
+![QR code](https://miro.medium.com/max/700/1*EjnvrpBLlEDowGQnecd0xQ.png)
 
 Le Code QR en anglais QR Code(QuickResponse Code) est un type de code-barres en deux dimensions constitué de modules noirs disposés dans un carré à fond blanc. L'agencement de ces points définit l'information que contient le code. L'abréviation QR Code signifie que le code peut être décodé rapidement après avoir été lu par un lecteur ; son avantage est dans sa capacité à stocker plus d'information qu'un code barre et ainsi, les données décodées par le lecteur permet d'enclencher directement des actions.
 
@@ -28,7 +27,7 @@ Il est rendu public en 1999 : Denso-Wave publie le code QR sous licence libre ; 
 
 ### Que peut-on faire avec ca ?
 
-![enter image description here](https://cdn.mos.cms.futurecdn.net/947edd798e001a9e19d15773a55526ea.jpg)
+![QR code on phone](https://cdn.mos.cms.futurecdn.net/947edd798e001a9e19d15773a55526ea.jpg)
 
 Les QR code sont utilisés partout où les données doivent être lues rapidement. Vous pouvez les trouver sur des billets, des distributeurs automatiques, des timbres, des prospectus, des affiches et bien d’autres endroits. Souvent, **une URL est intégrée dans le code**, à laquelle les personnes intéressées peuvent ensuite accéder via une application de numérisation. Mais il peut aussi contenir des textes tels que des codes de bons ou des informations qui, par exemple, accélèrent le processus de vérification lors d’un contrôle de billets. 
 
@@ -51,7 +50,6 @@ Les QR code peuvent également être utilisés en conjonction avec d’autres ap
 L'utilisation la plus dominante qu'on connaît de nos jours est le paiement. La Chine par exemple est l'un des pays qui utilise plus de QRcode dans le monde avec le japon afin de faciliter le processus de paiement. On scanne juste un code et le paiement est valider.
 
 ### Utilisation en periode COVID-19
-![enter image description here](https://img.bfmtv.com/c/0/708/0d36/2fe82bb44b0cf687552fa3010b3b.png)
 
 Avec la pandémie du COVID-19, nos comportements quotidiens se sont bouleversé pour laisser, place a d'autre pratique(port de masque, d'instanciation social, mesure barrière...) Le QRCode a profondément contribuer aussi à la gestion de cette crise et rebaissant les interactions entre les individus.Exemple avec ces passeports immunitaires imposés par certains pays, pour pouvoir soit passer la frontière, soit entrer dans des lieux clos. Vous remplissez un formulaire, avec votre résultat de test de dépistage, ainsi qu’éventuellement les pays et régions traversées. Tout cela est transformé en données numériques contenues dans un QR Code, que vous devez présenter comme un sésame pour aller où bon vous semble.
 L’Estonie envisage déjà qu’à terme, cette technologie permette de digitaliser le traditionnel carnet de vaccination.  

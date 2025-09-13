@@ -12,8 +12,7 @@ tags:
   - software engineering
   - programming
   - technology
-description:
-  Découvrez comment utiliser MutationObserver pour surveiller les modifications d'éléments HTML dans votre DOM en JavaScript.
+description: Learn how to use MutationObserver to monitor changes to HTML elements in your DOM in JavaScript.
 ---
 
 Hello, I'm going to share with you a little today about a problem I recently encountered and how I solved it!
@@ -40,7 +39,7 @@ Let's say we want to have span elements with property tabIndex=0 in a div, and e
     <span tabIndex="0">Child</span>
   </div>
   <script type="text/javascript">
-    // notre code javascript sera donc ici.
+    // Our JavaScript code will therefore be here.
   </script>
 </body>
 </html
@@ -79,5 +78,4 @@ That's it for this little introductory post to the MutationObeserver, I think I 
 See you soon on my blog.
 
 * [[1] MDN Web Docs "MutationObserver" , https://developer.mozilla.org/fr/docs/Web/API/MutationObserver](https://developer.mozilla.org/fr/docs/Web/API/MutationObserver)
-
 * [[2] Shuvo Habib Blog's "Listening to DOM changes by Javascript Web API, Mutation Observer (hint: It’s the best practice)" , https://shuvohabib.medium.com/listening-to-dom-changes-by-javascript-web-api-mutation-observer-hint-its-the-best-practice-3ee92dc8aac6](https://shuvohabib.medium.com/listening-to-dom-changes-by-javascript-web-api-mutation-observer-hint-its-the-best-practice-3ee92dc8aac6)

@@ -12,12 +12,11 @@ tags:
   - mining
   - cryptoeconomy
   - economy
-description:
-  La révolution FinTech et les cryptomonnaies ne vivent plus dans leur propre monde spécial et indépendant, hors de portée de la réglementation nationale.
+description: La révolution FinTech et les cryptomonnaies ne vivent plus dans leur propre monde spécial et indépendant, hors de portée de la réglementation nationale.
 ---
 
 ### C'est quoi la cryptoéconomie?
-![enter image description here](https://miro.medium.com/max/1000/1*vq7F_z_x6Y5opcGcnxLESg.jpeg)
+![ETH](https://miro.medium.com/max/1000/1*vq7F_z_x6Y5opcGcnxLESg.jpeg)
 
 En termes simples, la cryptoéconomie fournit un moyen de coordonner le comportement des participants au réseau en combinant la cryptographie et l'économie.
 
@@ -29,7 +28,6 @@ Plutôt que d'être un sous-ensemble de l'économie traditionnelle, la cryptoéc
 
 
 ### Quel problème la cryptoéconomie permet-elle de résoudre ?
-![enter image description here](https://www.performancestrategies.it/wp-content/uploads/2020/02/x3086516-1-1-1024x679.jpg.pagespeed.ic.ZYaIw8vdPH.webp)
 
 Avant l'émergence de Bitcoin, on pensait généralement qu'il était impossible de créer un réseau peer-to-peer où le consensus est atteint sans d'importantes vulnérabilités aux attaques et aux failles.
 
@@ -42,7 +40,7 @@ Depuis lors, les réseaux décentralisés ont continué à s'appuyer sur la cryp
 Cette synergie entre les protocoles cryptographiques et les incitations économiques permet d'obtenir un tout nouvel écosystème de réseaux décentralisés qui sont résistants et sûrs.
 
 ### Le rôle de la cryptoéconomie dans le minage de Bitcoin
-![enter image description here](https://ca-times.brightspotcdn.com/dims4/default/962fadc/2147483647/strip/true/crop/2048x1152+0+0/resize/840x473!/quality/90/?url=https://california-times-brightspot.s3.amazonaws.com/64/96/d21f5bf2cdc7759f975c9a11a345/la-1521227068-cqbpw1a1h6-snap-image)
+![bitcoin miner](https://ca-times.brightspotcdn.com/dims4/default/962fadc/2147483647/strip/true/crop/2048x1152+0+0/resize/840x473!/quality/90/?url=https://california-times-brightspot.s3.amazonaws.com/64/96/d21f5bf2cdc7759f975c9a11a345/la-1521227068-cqbpw1a1h6-snap-image)
 
 L'objectif de Bitcoin est de créer un réseau de transfert de valeur qui vérifie avec précision les transferts de valeur, et qui soit immuable et résistant à la censure. 
 
