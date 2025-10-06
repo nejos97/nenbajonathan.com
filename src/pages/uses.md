@@ -14,7 +14,7 @@ title: "Uses"
 ## 🔨 Editor & Console
 
 - My favorite editor is [VS Code](https://code.visualstudio.com/) with the [Darcula Theme](https://github.com/wesbos/cobalt2-vscode).
-- My terminal is [iTerm](https://www.warp.dev/) with [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+- My terminal is [iTerm](https://iterm2.com/) with [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## 📊 Apps & Productivity
 
