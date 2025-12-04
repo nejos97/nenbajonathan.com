@@ -1,10 +1,10 @@
 ---
 author: Jonathan Nenba
-pubDatetime: 2025-12-02T21:00:00Z
+pubDatetime: 2025-12-04T20:00:00Z
 title: 'Code Is Law, Cypherpunk, and Cyberpunk: Understanding Digital Freedom'
 slug: code-is-law-cypherpunk-cyberpunk
 featured: false
-draft: true
+draft: false
 tags:
   - code-is-law
   - cypherpunk
@@ -15,7 +15,7 @@ description: Explore the philosophies of Code Is Law, Cypherpunk, and the Cyberp
 
 ### Code Is Law, Cypherpunk, and Cyberpunk: Three Ideas Shaping Our Digital Future
 
-In the tech world, some ideas go beyond programming techniques or the latest frameworks. They express visions of society, philosophies of freedom, and sometimes forms of resistance. Today, I want to explore three concepts often mentioned but rarely explained clearly: **“Code Is Law,” the Cypherpunk philosophy, and the Cyberpunk movement.** Together, they help us understand the digital world we live in — and the one we are building.
+In the tech world, some ideas go beyond programming techniques or the latest frameworks. They express visions of society, philosophies of freedom, and sometimes forms of resistance. Today, I want to explore three concepts often mentioned but rarely explained clearly: **“Code Is Law,” the Cypherpunk philosophy, and the Cyberpunk movement.** Together, they help us understand the digital world we live in and the one we are building.
 
 ### Code Is Law: When Software Defines the Rules
 
@@ -31,7 +31,7 @@ These rules are not negotiable. They are enforced by algorithms, not judges. Thi
 
 ### The Cypherpunk Philosophy: Freedom Through Cryptography
 
-The **Cypherpunk movement**, born in the early 1990s, believes that the best way to protect freedom in the digital age is through strong cryptography. Cypherpunks knew that surveillance would become easier, cheaper, and more pervasive — and that the only real defense would come from mathematics.
+The **Cypherpunk movement**, born in the early 1990s, believes that the best way to protect freedom in the digital age is through strong cryptography. Cypherpunks knew that surveillance would become easier, cheaper, and more pervasive and that the only real defense would come from mathematics.
 
 Cypherpunks defend three core ideas:
 
@@ -58,10 +58,12 @@ Even though cyberpunk is fiction, today’s world reflects elements of it: centr
 
 We live in a time where AI models capture and analyze our behavior, major corporations centralize unprecedented power, and governments increasingly demand access to private communications. Privacy is disappearing faster than ever.
 
-In many ways, our world is becoming more **cyberpunk**, and the healthiest response is becoming more **cypherpunk**. Decentralized technologies like Bitcoin, strong encryption, peer-to-peer networks, and open-source development are not just technical tools — they are shields for individual freedom.
+In many ways, our world is becoming more **cyberpunk**, and the healthiest response is becoming more **cypherpunk**. Decentralized technologies like Bitcoin, strong encryption, peer-to-peer networks, and open-source development are not just technical tools, they are shields for individual freedom.
 
 ### Conclusion
 
 “Code Is Law” shows that software shapes our digital reality. Cypherpunk philosophy teaches us that freedom must be defended through cryptography. Cyberpunk warns us of the dangers of technological control and centralized power.
 
-Understanding these ideas helps us see why privacy tools, decentralized systems, and open-source projects are essential. The future of digital freedom will depend on the values we encode — and the systems we choose to build.
+Understanding these ideas helps us see why privacy tools, decentralized systems, and open-source projects are essential. The future of digital freedom will depend on the values we encode and the systems we choose to build.
+
+**Code, Peace and Love**
