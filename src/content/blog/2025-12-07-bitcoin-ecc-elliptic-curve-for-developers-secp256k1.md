@@ -42,7 +42,7 @@ Bitcoin's curve uses the Weierstrass form with coefficients:
 
 This defines a set of points `(x, y)` that satisfy the equation over a finite field. The simplicity is deliberate—no hidden parameters, maximum transparency.
 
-![A starry night sky.](/src/assets/images/elliptic-curve.png)
+![A starry night sky.](../../assets/images/elliptic-curve.png)
 
 ### Point Addition on Elliptic Curves
 
