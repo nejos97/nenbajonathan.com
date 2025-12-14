@@ -4,7 +4,7 @@ pubDatetime: 2025-12-11T03:27:00Z
 title: 'ECDSA Signatures in Bitcoin'
 slug: bitcoin-ecdsa-digital-signatures-explained-for-developers
 featured: false
-draft: false
+draft: true
 tags:
   - bitcoin
   - cryptography
