@@ -33,13 +33,27 @@ These rules are not negotiable. They are enforced by algorithms, not judges. Thi
 
 The **Cypherpunk movement**, born in the early 1990s, believes that the best way to protect freedom in the digital age is through strong cryptography. Cypherpunks knew that surveillance would become easier, cheaper, and more pervasive and that the only real defense would come from mathematics.
 
+This philosophy is powerfully summarized in the *Cypherpunk Manifesto*:
+
+> *“Privacy is necessary for an open society in the electronic age.”*
+> *“We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy.”*
+
+These words, written long before social media and mass data collection, feel more relevant than ever. The full manifesto can be read here:
+**[https://www.activism.net/cypherpunk/manifesto.html](https://www.activism.net/cypherpunk/manifesto.html)**
+
 Cypherpunks defend three core ideas:
 
 * **Privacy is a human right**, not a luxury.
 * **Centralized power is dangerous**, especially online.
 * **Technology should empower individuals**, not institutions.
 
-This mindset led to the creation of tools such as PGP/GPG, Tor, encrypted messaging, and decentralized money like Bitcoin. Instead of waiting for governments to protect privacy, cypherpunks chose to build the tools themselves.
+This mindset led to the creation of tools such as PGP/GPG, Tor, encrypted messaging, and decentralized money like Bitcoin. Instead of waiting for laws to protect privacy, cypherpunks chose to write code.
+
+As the manifesto states:
+
+> *“Cypherpunks write code.”*
+
+This single sentence captures the heart of the movement: action over theory, software over promises.
 
 ### Cyberpunk: Fiction That Feels Increasingly Familiar
 
@@ -52,7 +66,7 @@ Cyberpunk stories often include:
 * extreme inequality and corporate oppression
 * constant surveillance and digital control
 
-Even though cyberpunk is fiction, today’s world reflects elements of it: centralized platforms, digital surveillance, and technology often advancing faster than ethics.
+Even though cyberpunk is fiction, today’s world reflects many of its elements: centralized platforms, digital surveillance, algorithmic control, and technology advancing faster than ethics.
 
 ### Why These Ideas Matter Now
 

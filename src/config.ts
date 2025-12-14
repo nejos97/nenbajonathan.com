@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Nenba Jonathan",
   profile: "https://nenbajonathan.com",
   desc: "I'm a full-stack developer focused on building fast, reliable applications. I’m passionate about open-source, blockchain, and decentralized finance, working primarily with JavaScript, Python, Rust, and Go.",
-  title: "https://nenbajonathan.com",
+  title: "Nenba Jonathan",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
