@@ -1,6 +1,6 @@
 ---
 author: Jonathan Nenba
-pubDatetime: 2026-01-13T15:27:00Z
+pubDatetime: 2026-01-16T14:27:00Z
 title: 'ECDSA Signatures in Bitcoin'
 slug: bitcoin-ecdsa-digital-signatures-explained-for-developers
 featured: false
@@ -14,16 +14,13 @@ tags:
 description: Learn how ECDSA digital signatures secure Bitcoin transactions, with clear explanations and practical Rust code for key generation, signing, and verification.
 ---
 
-Bitcoin's security is built on a fundamental cryptographic mechanism:
-**the ECDSA digital signature**.
+Bitcoin's security is built on a fundamental cryptographic mechanism: **the ECDSA digital signature**.
 
 Every transaction relies on it. Without ECDSA, users would have no way to prove they own the coins they want to spend, nodes couldn't validate transactions, and the entire protocol would collapse.
 
 This article explains ECDSA in a clear and developer-friendly way, introduces the mathematical concepts behind it.
 
----
-
-# **1. What Is a Digital Signature?**
+## What Is a Digital Signature?
 
 A digital signature allows someone to prove three things:
 
@@ -31,39 +28,34 @@ A digital signature allows someone to prove three things:
 2. **The message has not been modified** after it was signed.
 3. **Only the correct key owner could have produced the signature**.
 
-In Bitcoin, the signed message is part of a transaction.
-The signature proves that the spender truly owns the private key linked to the Bitcoin address.
+In Bitcoin, the signed message is part of a transaction. The signature proves that the spender truly owns the private key linked to the Bitcoin address.
 
----
-
-# **2. Why Bitcoin Uses ECDSA**
+## Why Bitcoin Uses ECDSA
 
 Bitcoin uses **Elliptic Curve Digital Signature Algorithm (ECDSA)** instead of older algorithms like RSA or classical DSA, because elliptic curves provide:
 
 * Extremely strong security for small key sizes
 * Fast computation (important for nodes and wallets)
-* Small signatures(lead to cheaper transactions)
+* Small signatures (lead to cheaper transactions)
 * Strong resistance to known attacks
 
 Bitcoin uses a specific curve: **secp256k1**, chosen for its mathematical simplicity and excellent performance.
 
----
-
-# **3. The Math Behind secp256k1 (Explained Simply)**
+## The Math Behind secp256k1 (Explained Simply)
 
 The curve Bitcoin uses is defined by the equation:
 
-[
-y^2 = x^3 + 7
-]
+```
+y² = x³ + 7
+```
 
-—but not on regular real numbers.
+but not on regular real numbers.
 
 Everything happens **modulo a huge prime number p**, forming what is called a **finite field**.
 
 ### A finite field (very simply):
 
-* Numbers “wrap around” after ( p )
+* Numbers "wrap around" after p
 * You can safely do addition, subtraction, multiplication, and division
 * All results stay within the field
 * This makes discrete logarithm problems extremely hard
@@ -72,59 +64,43 @@ Everything happens **modulo a huge prime number p**, forming what is called a **
 
 A point is simply a pair (x, y) that satisfies:
 
-[
-y^2\ mod\ p = x^3 + 7\ mod\ p
-]
+```
+y² mod p = x³ + 7 mod p
+```
 
 ### Private and public keys
 
 A private key is just a random 256-bit number:
 
-[
+```
 privkey = k
-]
+```
 
 The public key is computed as:
 
-[
-pubkey = k \times G
-]
+```
+pubkey = k × G
+```
 
 Where:
 
-* ( G ) is a generator point defined by the curve
-* ( \times ) means **elliptic curve scalar multiplication**
+* G is a generator point defined by the curve
+* × means **elliptic curve scalar multiplication**
 
-Scalar multiplication is easy to compute,
-but impossible to reverse.
+Scalar multiplication is easy to compute, but impossible to reverse.
 
 This is why you can reveal your **public key** without exposing your **private key**.
 
----
+## How an ECDSA Signature Works (Simple Explanation)
 
-# **4. How an ECDSA Signature Works (Simple Explanation)**
-
-To sign a message hash ( z ), the wallet:
+To sign a message hash z, the wallet:
 
 1. Picks a **random number k** (must be unique and secret)
-2. Computes the point
-   [
-   R = k \times G
-   ]
-3. Takes
-   [
-   r = R_x\ mod\ n
-   ]
-4. Computes
-   [
-   s = k^{-1} (z + r \cdot privkey)\ mod\ n
-   ]
+2. Computes the point: `R = k × G`
+3. Takes: `r = Rₓ mod n`
+4. Computes: `s = k⁻¹(z + r · privkey) mod n`
 
-The signature is:
-
-[
-(r, s)
-]
+The signature is: `(r, s)`
 
 ### Verification only needs:
 
@@ -134,21 +110,17 @@ The signature is:
 
 No private key is ever exposed.
 
----
-
-# **5. Why k Must Be Unique (Critical Security Rule)**
+## Why k Must Be Unique (Critical Security Rule)
 
 If a wallet reuses the same **k** twice, even once, then:
 
-👉 **any attacker can compute the private key.**
+**any attacker can compute the private key.**
 
 This happened in early Android wallets due to a weak random number generator.
 
 To avoid this, many modern Bitcoin libraries use **deterministic k** generation (RFC 6979), based on SHA-256 and the private key itself.
 
----
-
-# **6. ECDSA in Bitcoin Transactions**
+## ECDSA in Bitcoin Transactions
 
 When you spend Bitcoin:
 
@@ -164,9 +136,7 @@ Nodes verify:
 
 This ensures only the legitimate owner of the coins can spend them.
 
----
-
-# **7. Future Direction: Schnorr, But ECDSA Remains Essential**
+## Future Direction: Schnorr, But ECDSA Remains Essential
 
 Since Taproot (2021), Bitcoin also supports **Schnorr signatures**, which are more flexible and unlock features like MuSig2.
 
@@ -178,9 +148,7 @@ But:
 
 ECDSA remains one of the backbone components of the protocol.
 
----
-
-# **8. Rust Implementation: Key Generation, Signing, Verification**
+## Rust Implementation: Key Generation, Signing, Verification
 
 Here is a complete minimal Rust implementation using the **`k256`** crate.
 
@@ -190,40 +158,41 @@ use k256::ecdsa::{
     SigningKey, VerifyingKey, Signature,
 };
 use sha2::{Sha256, Digest};
+use k256::elliptic_curve::rand_core::OsRng;
 
 fn main() {
     // 1. Generate private key
-    let signing_key = SigningKey::random(&mut rand::thread_rng());
-    let verify_key: VerifyingKey = signing_key.verifying_key();
+    let signing_key = SigningKey::random(&mut OsRng);
+    let verify_key: &VerifyingKey = &signing_key.verifying_key();
 
     println!("Private key: {:?}", signing_key.to_bytes());
-    println!("Public key: {:?}", verify_key.to_bytes());
+    println!("Public key: {:?}", verify_key.to_sec1_bytes());
 
     // 2. Message to sign
-    let message = b"Hello Bitcoin ECDSA!";
+    let message = b"Bitcoin ECDSA!";
     let message_hash = Sha256::digest(message);
 
     // 3. Sign the message hash
-    let signature: Signature = signing_key.sign(message_hash.as_slice());
+    let signature: Signature = signing_key.sign(message_hash.as_ref());
     println!("Signature: {:?}", signature);
 
     // 4. Verify the signature
-    let is_valid = verify_key.verify(message_hash.as_slice(), &signature).is_ok();
+    let is_valid = verify_key.verify(message_hash.as_ref(), &signature).is_ok();
     println!("Valid signature? {}", is_valid);
 }
+
 ```
 
-
-# **9. Final Thoughts**
+## Final Thoughts
 
 Understanding ECDSA is essential if you want to:
 
-* develop Bitcoin wallets
-* validate or build raw transactions
-* read Bitcoin Core or Rust Bitcoin source code
-* contribute to open-source Bitcoin development
-* work with private keys, seeds, and key derivation
+* Develop Bitcoin wallets
+* Validate or build raw transactions
+* Read Bitcoin Core or Rust Bitcoin source code
+* Contribute to open-source Bitcoin development
+* Work with private keys, seeds, and key derivation
 
-ECDSA is not just math — it's one of the pillars that makes Bitcoin secure, decentralized, and trustless.
+ECDSA is not just math, it's one of the pillars that makes Bitcoin secure, decentralized, and trustless.
 
 **Code, Peace and Love**
