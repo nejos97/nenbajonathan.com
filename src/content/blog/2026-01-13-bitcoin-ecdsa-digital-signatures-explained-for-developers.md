@@ -1,10 +1,10 @@
 ---
 author: Jonathan Nenba
-pubDatetime: 2025-12-11T03:27:00Z
+pubDatetime: 2026-01-13T15:27:00Z
 title: 'ECDSA Signatures in Bitcoin'
 slug: bitcoin-ecdsa-digital-signatures-explained-for-developers
 featured: false
-draft: true
+draft: false
 tags:
   - bitcoin
   - cryptography
@@ -42,7 +42,7 @@ Bitcoin uses **Elliptic Curve Digital Signature Algorithm (ECDSA)** instead of o
 
 * Extremely strong security for small key sizes
 * Fast computation (important for nodes and wallets)
-* Small signatures → cheaper transactions
+* Small signatures(lead to cheaper transactions)
 * Strong resistance to known attacks
 
 Bitcoin uses a specific curve: **secp256k1**, chosen for its mathematical simplicity and excellent performance.
@@ -213,17 +213,6 @@ fn main() {
 }
 ```
 
-### What this code does
-
-* Generates a secp256k1 private key
-* Computes the corresponding public key
-* Hashes a message using SHA-256
-* Signs the hash using ECDSA
-* Verifies the signature
-
-This is the foundation of how Bitcoin wallets process signatures internally.
-
----
 
 # **9. Final Thoughts**
 
@@ -236,16 +225,5 @@ Understanding ECDSA is essential if you want to:
 * work with private keys, seeds, and key derivation
 
 ECDSA is not just math — it's one of the pillars that makes Bitcoin secure, decentralized, and trustless.
-
-If you'd like, I can also generate:
-
-✅ A fully commented version of the Rust code
-✅ A deeper mathematical dive (finite fields, scalar multiplication, group law)
-✅ A tutorial on implementing ECDSA manually
-✅ A follow-up article on Schnorr signatures and Taproot
-
-Would you like the **Astro blog template** for this post as well?
-
-
 
 **Code, Peace and Love**
