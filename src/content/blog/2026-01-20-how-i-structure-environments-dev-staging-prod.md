@@ -12,7 +12,7 @@ tags:
   - deployment
   - software-engineering
 description: Environment separation is a discipline, not a tool choice. Learn how to properly structure dev, staging, and production environments regardless of your infrastructure.
-ogImage: 'assets/images/blog/env-dev-staging-prod.jpg'
+ogImage: 'assets/images/blog/how-i-structure-environments-dev-staging-prod.jpg'
 ---
 
 # How I Structure Environments: Dev, Staging, and Prod
