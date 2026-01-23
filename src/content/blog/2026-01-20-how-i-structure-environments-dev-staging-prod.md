@@ -4,7 +4,7 @@ pubDatetime: 2026-01-20T15:30:00Z
 title: 'How I Structure Environments: Dev, Staging, and Prod'
 slug: how-i-structure-environments-dev-staging-prod
 featured: false
-draft: true
+draft: false
 tags:
   - devops
   - infrastructure
@@ -48,11 +48,9 @@ But even in development, structure matters. Dev should feel free, but not chaoti
 
 ### Staging Is Not Optional, It's Your Safety Net
 
-If there's one environment I see teams skip, it's staging. And it's usually a mistake.
-
 Staging is where reality checks your assumptions.
 
-For me, staging must mirror production as closely as possible. Same Docker containers, same microservices architecture, same CI/CD pipeline, same background workers processing async jobs. The only acceptable differences are the dataset, the API keys and secrets, and sometimes the domain name.
+For me, staging must mirror production as closely as possible. Same Docker containers, same microservices architecture, same CI/CD pipeline, same background workers processing async jobs. The only acceptable differences are the dataset, the API keys and secrets, and domain name.
 
 If your staging environment is "lighter" or "simpler" than production, you're lying to yourself. You're testing a different system.
 
