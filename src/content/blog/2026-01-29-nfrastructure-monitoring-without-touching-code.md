@@ -25,7 +25,7 @@ Most guides tell you to add metrics to your code. Import a library, wrap your fu
 
 You end up with different tools for each language. Python uses one library, Go uses another, Node.js has its own. You spend time fixing monitoring code instead of your actual app.
 
-We took a different approach with Bafoka. Our services ran in Python, Go, Node.js, and TypeScript. Instead of adding monitoring code to each one, we watched what they all had in common: they all ran in Kubernetes, used CPU and memory, created logs, and connected to databases.
+We took a different approach with Bafoka. Our services ran in Python, Go, Node.js, and Soldity. Instead of adding monitoring code to each one, we watched what they all had in common: they all ran in Kubernetes, used CPU and memory, created logs, and connected to databases.
 
 Infrastructure monitoring let us see the entire system without extra work.
 
