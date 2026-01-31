@@ -119,7 +119,7 @@ Infrastructure monitoring taught us to think about the whole system. A problem i
 
 Over six months, we kept 95.5% uptime. We stopped 10+ critical issues before users saw them. We had zero data loss and zero downtime from running out of resources.
 
-Time to find problems dropped from 50 minutes to 15 minutes. Time to fix problems dropped from 6 hours to 1 hour. We could find and fix issues faster because the metrics and logs were already there.
+Time to find problems dropped from 50 minutes to 15 minutes. Time to fix problems dropped from 4 hours to 1 hour. We could find and fix issues faster because the metrics and logs were already there.
 
 ## This Works Anywhere
 
