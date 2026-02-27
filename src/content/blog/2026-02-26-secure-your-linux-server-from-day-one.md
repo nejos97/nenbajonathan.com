@@ -2,9 +2,9 @@
 author: Jonathan Nenba
 pubDatetime: 2026-02-26T15:00:00Z
 title: 'What happened when I moved my apps to my own server'
-slug: secure-your-linux-server-from-day-one
+slug: what-happened-when-i-moved-my-apps-to-my-own-server
 featured: false
-draft: true
+draft: false
 tags:
   - linux
   - security
@@ -14,7 +14,7 @@ tags:
   - devops
   - monitoring
   - betterstack
-description: After migrating my apps to Hetzner, bots were knocking within the hour. Here's what I did to lock down my server using SSH keys, Fail2ban, UFW, and real-time monitoring with Betterstack.
+description: Within an hour of going live on Hetzner, bots were already trying to break in. Here's what I did to lock down my server using SSH keys, Fail2ban, UFW, and real-time monitoring with Betterstack.
 ---
 
 A few weeks ago I decided to migrate some of my applications to a new server on Hetzner. The price was great, the specs were solid, and I was excited to get everything running.
@@ -54,19 +54,29 @@ First, on your local machine, generate a key if you don't have one yet:
 ssh-keygen -t ed25519 -C "wick@thekiller.com"
 ```
 
-Then push it to the server:
+Then push it to the server. Note that `ssh-copy-id` still requires password login to work, so run this **before** disabling password authentication in the next step:
 
 ```bash
 ssh-copy-id wick@server.thekiller.com
 ```
 
-Then on the server, edit `/etc/ssh/sshd_config`:
+Then on the server, back up your SSH config first otherwise one wrong character and you lose access:
+
+```bash
+cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+```
+
+Then edit `/etc/ssh/sshd_config`:
 
 ```
 PasswordAuthentication no
 PermitRootLogin no
 PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+AllowUsers wick
 ```
+
+The `AllowUsers` directive is an extra layer: even if someone somehow got a valid key, they'd still need to be logging in as the right user.
 
 Restart SSH:
 
@@ -139,7 +149,10 @@ I set `bantime` to 86400 (24 hours) instead of the default 10 minutes. If a bot 
 ```bash
 systemctl enable --now fail2ban
 
-# Check what's currently banned
+# Verify the service is running first
+systemctl status fail2ban
+
+# Then check what's currently banned
 fail2ban-client status sshd
 ```
 
@@ -152,8 +165,12 @@ Securing a server without monitoring it is like locking your house and never che
 I set up **Betterstack** for this. It handles both uptime monitoring and log shipping in one place, and the setup is genuinely fast. They give you a one-line install command:
 
 ```bash
-wget -q https://logs.betterstack.com/setup/linux/YOUR_TOKEN -O setup.sh && sudo bash setup.sh
+curl -sSL https://telemetry.betterstack.com/setup-vector/ubuntu/YOUR_TOKEN \
+  -o /tmp/setup-vector.sh && \
+  bash /tmp/setup-vector.sh
 ```
+
+> **Security note:** Always inspect a script before running it from a remote URL. 
 
 Once it's running, I get:
 - Alerts if the server goes down
@@ -181,20 +198,6 @@ systemctl disable --now servicename
 ```bash
 ss -tulpn
 ```
-
-**Back up your SSH config before touching it.** Seriously. One wrong character and you lose access. Copy it first:
-
-```bash
-cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
-```
-
-**Use `AllowUsers` in your SSH config.** Even with key auth, you can add an extra layer by explicitly whitelisting which usernames can connect via SSH:
-
-```
-AllowUsers wick
-```
-
-This means even if someone somehow got a valid key, they'd still need to be logging in as the right user.
 
 ## Is it enough?
 
