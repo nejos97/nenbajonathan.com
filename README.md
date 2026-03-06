@@ -7,14 +7,14 @@ My personal website and blog, built with [Astro](https://astro.build/) and based
 
 I'm a full-stack developer focused on building fast, reliable applications. I'm passionate about open-source, blockchain, and decentralized finance, working primarily with JavaScript, Python, Rust, and Go.
 
-## 🔗 Links
+## Links
 
 - **Website**: [nenbajonathan.com](https://nenbajonathan.com)
 - **GitHub**: [github.com/nejos97](https://github.com/nejos97)
 - **LinkedIn**: [linkedin.com/in/jnenba](https://linkedin.com/in/jnenba)
 - **Twitter**: [twitter.com/nejos97](https://twitter.com/nejos97)
 
-## 🔥 Features
+## Features
 
 - Type-safe markdown blog posts
 - Light & dark mode
@@ -24,7 +24,7 @@ I'm a full-stack developer focused on building fast, reliable applications. I'm 
 - Fully responsive design
 - Accessible (Keyboard/VoiceOver)
 
-## 💻 Tech Stack
+## Tech Stack
 
 **Framework** - [Astro](https://astro.build/)
 **Type Checking** - [TypeScript](https://www.typescriptlang.org/)
@@ -34,7 +34,7 @@ I'm a full-stack developer focused on building fast, reliable applications. I'm 
 **Linting** - [ESLint](https://eslint.org)
 **Code Formatting** - [Prettier](https://prettier.io/)
 
-## 🚀 Project Structure
+## Project Structure
 
 ```
 /
@@ -57,7 +57,7 @@ I'm a full-stack developer focused on building fast, reliable applications. I'm 
 
 Blog posts are stored in `src/content/blog/`.
 
-## 👨🏻‍💻 Running Locally
+## Running Locally
 
 ```bash
 # Install dependencies
@@ -74,7 +74,7 @@ docker build -t nenbajonathan.com .
 docker run -p 4321:80 nenbajonathan.com
 ```
 
-## 🧞 Commands
+## Commands
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
@@ -87,7 +87,7 @@ docker run -p 4321:80 nenbajonathan.com
 | `npm run sync`         | Generate TypeScript types for Astro modules      |
 | `npm run lint`         | Lint with ESLint                                 |
 
-## 📜 License
+## License
 
 Licensed under the MIT License.
 
