@@ -1,6 +1,6 @@
 ---
 author: Jonathan Nenba
-pubDatetime: 2026-07-23T10:00:00Z
+pubDatetime: 2026-08-03T10:00:00Z
 title: 'Rust FFI, Explained Simply'
 slug: rust-ffi-explained-simply
 featured: false
