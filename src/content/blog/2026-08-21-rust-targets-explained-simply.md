@@ -1,6 +1,6 @@
 ---
 author: Jonathan Nenba
-pubDatetime: 2026-08-21T10:00:00Z
+pubDatetime: 2026-08-21T06:12:00Z
 title: 'Rust Targets Explained Simply'
 slug: rust-targets-explained-simply
 featured: false
