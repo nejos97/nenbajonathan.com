@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="694" height="186" viewBox="0 0 694 186" role="img" aria-labelledby="title desc">
+  <title id="title">Spec-Driven Development flow</title>
+  <desc id="desc">Five chevrons: Specify, Plan, Tasks, Implement, Validate. Specify is highlighted and a dashed arrow returns from Validate to Specify, showing that the result is checked against the specification.</desc>
+  <style>
+    .lbl { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-hi { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #3b8fd4; text-anchor: middle; dominant-baseline: middle; }
+    .note { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .row { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; fill: #808a9c; dominant-baseline: middle; }
+    .box { fill: none; stroke: #808a9c; stroke-width: 2; stroke-linejoin: round; }
+    .box-hi { fill: #3b8fd4; fill-opacity: 0.16; stroke: #3b8fd4; stroke-width: 2.4; stroke-linejoin: round; }
+    .bracket { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-linecap: round; }
+    .loop { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
+    .arrowhead { fill: #3b8fd4; }
+    .credit { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #808a9c; fill-opacity: 0.85; text-anchor: end; dominant-baseline: middle; }
+  </style>
+
+  <path class="box-hi" d="M20 70 H143 L159 102.0 L143 134 H20 Z"/>
+  <text class="lbl-hi" x="82" y="102">Specify</text>
+  <path class="box" d="M153 70 H251 L267 102.0 L251 134 H153 L169 102.0 Z"/>
+  <text class="lbl" x="210" y="102">Plan</text>
+  <path class="box" d="M261 70 H368 L384 102.0 L368 134 H261 L277 102.0 Z"/>
+  <text class="lbl" x="322" y="102">Tasks</text>
+  <path class="box" d="M378 70 H517 L533 102.0 L517 134 H378 L394 102.0 Z"/>
+  <text class="lbl" x="456" y="102">Implement</text>
+  <path class="box" d="M527 70 H662 Q674 70 674 82 V122 Q674 134 662 134 H527 L543 102.0 Z"/>
+  <text class="lbl" x="608" y="102">Validate</text>
+  <path class="loop" d="M608 62 V36 Q608 26 598 26 H92 Q82 26 82 36 V54"/>
+  <path class="arrowhead" d="M76 52 L82 62 L88 52 Z"/>
+  <text class="note" x="345" y="14">The result is checked against the specification</text>
+  <text class="credit" x="682" y="174">Published on https://nenbajonathan.com</text>
+</svg>

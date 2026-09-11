@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="862" height="272" viewBox="0 0 862 272" role="img" aria-labelledby="title desc">
+  <title id="title">Prompting versus Spec-Driven Development</title>
+  <desc id="desc">Two rows of chevrons. Before: Human, Prompt, AI, Code. With Spec-Driven Development: Human, Intent, Specification, Plan, Tasks, AI Agent, Code, Validation, with Specification highlighted.</desc>
+  <style>
+    .lbl { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-hi { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #3b8fd4; text-anchor: middle; dominant-baseline: middle; }
+    .note { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .row { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; fill: #808a9c; dominant-baseline: middle; }
+    .box { fill: none; stroke: #808a9c; stroke-width: 2; stroke-linejoin: round; }
+    .box-hi { fill: #3b8fd4; fill-opacity: 0.16; stroke: #3b8fd4; stroke-width: 2.4; stroke-linejoin: round; }
+    .bracket { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-linecap: round; }
+    .loop { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
+    .arrowhead { fill: #3b8fd4; }
+    .credit { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #808a9c; fill-opacity: 0.85; text-anchor: end; dominant-baseline: middle; }
+  </style>
+
+  <text class="row" x="20" y="30">BEFORE</text>
+  <path class="box" d="M20 50 H97 L113 82.0 L97 114 H20 Z"/>
+  <text class="lbl" x="58" y="82">Human</text>
+  <path class="box" d="M107 50 H192 L208 82.0 L192 114 H107 L123 82.0 Z"/>
+  <text class="lbl" x="158" y="82">Prompt</text>
+  <path class="box" d="M202 50 H254 L270 82.0 L254 114 H202 L218 82.0 Z"/>
+  <text class="lbl" x="236" y="82">AI</text>
+  <path class="box" d="M264 50 H336 Q348 50 348 62 V102 Q348 114 336 114 H264 L280 82.0 Z"/>
+  <text class="lbl" x="314" y="82">Code</text>
+  <text class="row" x="20" y="140">WITH SPEC-DRIVEN DEVELOPMENT</text>
+  <path class="box" d="M20 160 H97 L113 192.0 L97 224 H20 Z"/>
+  <text class="lbl" x="58" y="192">Human</text>
+  <path class="box" d="M107 160 H192 L208 192.0 L192 224 H107 L123 192.0 Z"/>
+  <text class="lbl" x="158" y="192">Intent</text>
+  <path class="box-hi" d="M202 160 H344 L360 192.0 L344 224 H202 L218 192.0 Z"/>
+  <text class="lbl-hi" x="281" y="192">Specification</text>
+  <path class="box" d="M354 160 H422 L438 192.0 L422 224 H354 L370 192.0 Z"/>
+  <text class="lbl" x="396" y="192">Plan</text>
+  <path class="box" d="M432 160 H509 L525 192.0 L509 224 H432 L448 192.0 Z"/>
+  <text class="lbl" x="478" y="192">Tasks</text>
+  <path class="box" d="M519 160 H620 L636 192.0 L620 224 H519 L535 192.0 Z"/>
+  <text class="lbl" x="578" y="192">AI Agent</text>
+  <path class="box" d="M630 160 H698 L714 192.0 L698 224 H630 L646 192.0 Z"/>
+  <text class="lbl" x="672" y="192">Code</text>
+  <path class="box" d="M708 160 H830 Q842 160 842 172 V212 Q842 224 830 224 H708 L724 192.0 Z"/>
+  <text class="lbl" x="783" y="192">Validation</text>
+  <text class="credit" x="850" y="260">Published on https://nenbajonathan.com</text>
+</svg>

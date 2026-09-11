@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="216" viewBox="0 0 760 216" role="img" aria-labelledby="title desc">
+  <title id="title">Traditional software development life cycle</title>
+  <desc id="desc">Six chevrons in a row: Requirements, Design, Build, Test, Deploy, Maintain. The Build chevron is much wider than the others and highlighted, showing that it took the largest share of a project.</desc>
+  <style>
+    .lbl { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-build { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 600; fill: #3b8fd4; text-anchor: middle; dominant-baseline: middle; }
+    .note { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .box { fill: none; stroke: #808a9c; stroke-width: 2; stroke-linejoin: round; }
+    .box-build { fill: #3b8fd4; fill-opacity: 0.16; stroke: #3b8fd4; stroke-width: 2.4; stroke-linejoin: round; }
+    .bracket { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-linecap: round; }
+    .credit { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #808a9c; fill-opacity: 0.85; text-anchor: end; dominant-baseline: middle; }
+  </style>
+
+  <!-- Requirements: x 20..128 -->
+  <path class="box" d="M20 50 H120 L136 82 L120 114 H20 Z"/>
+  <text class="lbl" x="74" y="82">Requirements</text>
+
+  <!-- Design: x 122..214 -->
+  <path class="box" d="M130 50 H206 L222 82 L206 114 H130 L146 82 Z"/>
+  <text class="lbl" x="180" y="82">Design</text>
+
+  <!-- Build: x 208..440 (wide) -->
+  <path class="box-build" d="M216 50 H432 L448 82 L432 114 H216 L232 82 Z"/>
+  <text class="lbl-build" x="336" y="82">Build</text>
+
+  <!-- Test: x 434..520 -->
+  <path class="box" d="M442 50 H512 L528 82 L512 114 H442 L458 82 Z"/>
+  <text class="lbl" x="489" y="82">Test</text>
+
+  <!-- Deploy: x 514..614 -->
+  <path class="box" d="M522 50 H606 L622 82 L606 114 H522 L538 82 Z"/>
+  <text class="lbl" x="576" y="82">Deploy</text>
+
+  <!-- Maintain: x 608..740 (rounded end) -->
+  <path class="box" d="M616 50 H728 Q740 50 740 62 V102 Q740 114 728 114 H616 L632 82 Z"/>
+  <text class="lbl" x="682" y="82">Maintain</text>
+
+  <!-- Bracket under Build -->
+  <path class="bracket" d="M234 128 V138 H332 V146 M332 138 H430 V128"/>
+  <text class="note" x="332" y="166">Often the largest share of the project</text>
+  <text class="credit" x="748" y="204">Published on https://nenbajonathan.com</text>
+</svg>

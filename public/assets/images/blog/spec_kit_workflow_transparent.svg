@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="791" height="186" viewBox="0 0 791 186" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Spec Kit workflow</title>
+  <desc id="desc">Seven chevrons: Constitution, Specify, Clarify, Plan, Tasks, Implement, Converge. Brackets below group them into Principles, What to build, How to build it, and Build and check.</desc>
+  <style>
+    .lbl { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-hi { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #3b8fd4; text-anchor: middle; dominant-baseline: middle; }
+    .note { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; fill: #808a9c; text-anchor: middle; dominant-baseline: middle; }
+    .row { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; fill: #808a9c; dominant-baseline: middle; }
+    .box { fill: none; stroke: #808a9c; stroke-width: 2; stroke-linejoin: round; }
+    .box-hi { fill: #3b8fd4; fill-opacity: 0.16; stroke: #3b8fd4; stroke-width: 2.4; stroke-linejoin: round; }
+    .bracket { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-linecap: round; }
+    .loop { fill: none; stroke: #3b8fd4; stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; }
+    .arrowhead { fill: #3b8fd4; }
+    .credit { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #808a9c; fill-opacity: 0.85; text-anchor: end; dominant-baseline: middle; }
+  </style>
+
+  <path class="box" d="M20 30 H154 L170 62.0 L154 94 H20 Z"/>
+  <text class="lbl" x="87" y="62">Constitution</text>
+  <path class="box" d="M164 30 H257 L273 62.0 L257 94 H164 L180 62.0 Z"/>
+  <text class="lbl" x="218" y="62">Specify</text>
+  <path class="box" d="M267 30 H360 L376 62.0 L360 94 H267 L283 62.0 Z"/>
+  <text class="lbl" x="322" y="62">Clarify</text>
+  <path class="box" d="M370 30 H438 L454 62.0 L438 94 H370 L386 62.0 Z"/>
+  <text class="lbl" x="412" y="62">Plan</text>
+  <path class="box" d="M448 30 H525 L541 62.0 L525 94 H448 L464 62.0 Z"/>
+  <text class="lbl" x="494" y="62">Tasks</text>
+  <path class="box" d="M535 30 H644 L660 62.0 L644 94 H535 L551 62.0 Z"/>
+  <text class="lbl" x="598" y="62">Implement</text>
+  <path class="box" d="M654 30 H759 Q771 30 771 42 V82 Q771 94 759 94 H654 L670 62.0 Z"/>
+  <text class="lbl" x="720" y="62">Converge</text>
+  <path class="bracket" d="M24 108 V118 H87 V126 M87 118 H150 V108"/>
+  <text class="note" x="87" y="146">Principles</text>
+  <path class="bracket" d="M184 108 V118 H270 V126 M270 118 H356 V108"/>
+  <text class="note" x="270" y="146">What to build</text>
+  <path class="bracket" d="M390 108 V118 H456 V126 M456 118 H521 V108"/>
+  <text class="note" x="456" y="146">How to build it</text>
+  <path class="bracket" d="M555 108 V118 H661 V126 M661 118 H767 V108"/>
+  <text class="note" x="661" y="146">Build and check</text>
+  <text class="credit" x="779" y="174">Published on https://nenbajonathan.com</text>
+</svg>
