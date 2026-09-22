@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Architecture of the stablecoin payment gateway: a merchant API calls a Rust gateway that watches Tron, Ethereum and Solana and emits webhooks">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#64748b" />
+    </marker>
+    <style>
+      .t { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .title { font-size: 42px; font-weight: 700; fill: #0f172a; }
+      .sub { font-size: 24px; fill: #64748b; }
+      .lbl { font-size: 24px; font-weight: 600; fill: #0f172a; }
+      .meta { font-size: 18px; fill: #64748b; }
+      .chip { font-size: 20px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="675" fill="#f6f8fc" />
+
+  <text class="t title" x="80" y="104">stablecoin-payment-gateway</text>
+  <text class="t sub" x="80" y="150">USDT deposits, one address per payment</text>
+
+  <!-- merchant -->
+  <rect x="80" y="250" width="260" height="110" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+  <text class="t lbl" x="210" y="298" text-anchor="middle">Merchant API</text>
+  <text class="t meta" x="210" y="328" text-anchor="middle">x-api-key</text>
+
+  <line x1="348" y1="305" x2="462" y2="305" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  <!-- gateway -->
+  <rect x="470" y="250" width="260" height="110" rx="14" fill="#ffffff" stroke="#006cac" stroke-width="2.5" />
+  <text class="t lbl" x="600" y="298" text-anchor="middle">Gateway</text>
+  <text class="t meta" x="600" y="328" text-anchor="middle" font-size="17">Rust · Postgres · Redis</text>
+
+  <line x1="738" y1="305" x2="852" y2="305" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  <!-- networks -->
+  <rect x="860" y="209" width="260" height="56" rx="28" fill="#ffffff" stroke="#e8492f" stroke-width="2" />
+  <text class="t chip" x="990" y="244" text-anchor="middle" fill="#e8492f">Tron · TRC-20</text>
+
+  <rect x="860" y="277" width="260" height="56" rx="28" fill="#ffffff" stroke="#4f5fbf" stroke-width="2" />
+  <text class="t chip" x="990" y="312" text-anchor="middle" fill="#4f5fbf">Ethereum · ERC-20</text>
+
+  <rect x="860" y="345" width="260" height="56" rx="28" fill="#ffffff" stroke="#0d9488" stroke-width="2" />
+  <text class="t chip" x="990" y="380" text-anchor="middle" fill="#0d9488">Solana · SPL</text>
+
+  <!-- webhooks -->
+  <path d="M600 368 L600 452" stroke="#64748b" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)" />
+  <rect x="330" y="460" width="540" height="96" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+  <text class="t lbl" x="600" y="500" text-anchor="middle">Webhooks</text>
+  <text class="t meta" x="600" y="530" text-anchor="middle">pending → paid → expired, with retries</text>
+</svg>

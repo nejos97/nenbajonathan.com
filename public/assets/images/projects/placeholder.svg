@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Project screenshot placeholder">
+  <rect width="1200" height="675" fill="#343f60" />
+  <g fill="none" stroke="#8a8fa3" stroke-width="6">
+    <rect x="360" y="230" width="480" height="300" rx="16" />
+    <path d="M360 452l120-110 96 88 132-136 132 158" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <circle cx="470" cy="312" r="30" fill="#8a8fa3" />
+  <text x="600" y="600" fill="#8a8fa3" font-family="monospace" font-size="34" text-anchor="middle">Add a screenshot in public/assets/images/projects/</text>
+</svg>
